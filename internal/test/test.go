@@ -377,6 +377,11 @@ func (b *DatabaseTestSuiteBase) Tx() sqlx.Ext {
 	return b.tx
 }
 
+// DB returns the database.
+func (b *DatabaseTestSuiteBase) DB() sqlx.Ext {
+	return b.db
+}
+
 // RedisPool returns the redis.Pool object.
 func (b *DatabaseTestSuiteBase) RedisPool() *redis.Pool {
 	return b.p

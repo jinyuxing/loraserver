@@ -378,7 +378,7 @@ func (b *DatabaseTestSuiteBase) Tx() sqlx.Ext {
 }
 
 // DB returns the database.
-func (b *DatabaseTestSuiteBase) DB() sqlx.Ext {
+func (b *DatabaseTestSuiteBase) DB() *common.DBLogger {
 	return b.db
 }
 

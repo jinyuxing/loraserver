@@ -502,6 +502,7 @@
     "github.com/stretchr/testify/require",
     "github.com/stretchr/testify/suite",
     "golang.org/x/net/context",
+    "gonum.org/v1/gonum/graph",
     "gonum.org/v1/gonum/graph/path",
     "gonum.org/v1/gonum/graph/simple",
     "google.golang.org/grpc",

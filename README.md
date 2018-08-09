@@ -37,6 +37,6 @@ and the scheduling of downlink data transmissions.
 [![acklio](https://www.loraserver.io/img/sponsors/acklio.png)](http://www.ackl.io/)
 
 ## License
-
+vv
 LoRa Server is distributed under the MIT license. See also
 [LICENSE](https://github.com/brocaar/loraserver/blob/master/LICENSE).
